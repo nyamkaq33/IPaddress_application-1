@@ -63,6 +63,6 @@ while True:
 
         print("CIDR Notation: % s"% str(net.prefixlen))
 
-        print("Binary ID: % s"% bin(int(ip.ip))[:0] + bin(int(ip.ip))[2:]))
+        print("Binary ID: % s"% bin(int(ip.ip))[:0] + bin(int(ip.ip))[2:])
 
         break
